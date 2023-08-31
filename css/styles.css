@@ -507,6 +507,11 @@ footer {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 480px) {
+  .containerFooter {
+    font-size: 14px;
+  }  
+}
 .socialNetworks {
   display: flex;
   flex-direction: column;
@@ -549,7 +554,11 @@ footer {
   color: #000;
   font-weight: 700;
 }
-
+@media (max-width: 480px) {
+  .containerCopyright p {
+    font-size: 14px;
+  }  
+}
 
 /* MODAL */
 .modal {
