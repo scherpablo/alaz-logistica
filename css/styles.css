@@ -528,9 +528,10 @@ footer {
 }
 /* COPYRIGHT */
 .containerCopyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
   gap: 10px;
   padding: 30px 0 0 0;
 }
@@ -548,6 +549,7 @@ footer {
   color: #000;
   font-weight: 700;
 }
+
 
 /* MODAL */
 .modal {
