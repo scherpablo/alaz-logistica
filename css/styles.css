@@ -276,11 +276,19 @@ body {
   margin-top: -5px;
 }
 .logoSections img {
-  width: 15%;
+  width: 250px;
 }
 @media (max-width: 768px) {
   .imgDivision {
     order: 2;
+  }
+  .logoSections img {
+    width: 200px;
+  }
+}
+@media (max-width: 480px) {
+  .logoSections img {
+    width: 150px;
   }
 }
 
