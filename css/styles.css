@@ -43,17 +43,17 @@ body {
 }
 @media (max-width: 768px) {
   .logo {
-    transform: scale(.8);
+    transform: scale(0.8);
     margin-bottom: 0px;
     margin: 20px 0 -10px 0;
-  }  
+  }
 }
 @media (max-width: 480px) {
   .logo {
-    transform: scale(.7);
+    transform: scale(0.7);
     margin-bottom: -25px;
     margin-top: 0px;
-  }  
+  }
 }
 .containerHero {
   display: flex;
@@ -66,7 +66,7 @@ body {
 @media (max-width: 768px) {
   .containerHero {
     height: auto;
-  }  
+  }
 }
 /* NAV BAR */
 .navContainer {
@@ -240,8 +240,6 @@ body {
   color: #fff;
 }
 
-
-
 /* SECTION INFO */
 .containerInfo {
   display: flex;
@@ -273,10 +271,12 @@ body {
   justify-content: center;
   background-color: #c1da99;
   padding: 10px 0;
-  margin-top: -5px;
 }
 .logoSections img {
   width: 200px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
 }
 @media (max-width: 768px) {
   .imgDivision {
@@ -284,6 +284,7 @@ body {
   }
   .logoSections img {
     width: 150px;
+    margin-top: 15px;
   }
 }
 @media (max-width: 480px) {
@@ -415,7 +416,7 @@ body {
   margin: 20px 0;
   display: block;
   box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 0px 8px 8px rgb(255, 255, 255, .5);
+  box-shadow: 0px 0px 8px 8px rgb(255, 255, 255, 0.5);
   cursor: pointer;
   overflow: hidden;
   border-radius: 50%;
@@ -520,7 +521,7 @@ footer {
 @media (max-width: 480px) {
   .containerFooter {
     font-size: 14px;
-  }  
+  }
 }
 .socialNetworks {
   display: flex;
@@ -529,7 +530,7 @@ footer {
 }
 .socialNetworks a,
 .socialNetworks p {
-  color:#fff;
+  color: #fff;
   text-decoration: none;
 }
 .linksFooter {
@@ -553,8 +554,8 @@ footer {
 .containerCopyright p {
   font-size: 20px;
   font-weight: 500;
-  color:#c1da99;
-  color:rgb(193, 218, 153)
+  color: #c1da99;
+  color: rgb(193, 218, 153);
 }
 .containerCopyright a {
   color: #fff;
@@ -567,7 +568,7 @@ footer {
 @media (max-width: 480px) {
   .containerCopyright p {
     font-size: 14px;
-  }  
+  }
 }
 
 /* MODAL */
