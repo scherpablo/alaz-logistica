@@ -501,7 +501,52 @@ form {
 /* FOOTER */
 footer {
   background-color: #0f547b;
-  padding: 50px 0;
+  padding: 50px 0 25px 0;
+}
+.containerFooter {
+  display: flex;
+  justify-content: space-around;
+}
+.socialNetworks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.socialNetworks a,
+.socialNetworks p {
+  color:#fff;
+  text-decoration: none;
+}
+.linksFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.linksFooter a {
+  color: #fff;
+  text-decoration: none;
+}
+/* COPYRIGHT */
+.containerCopyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 30px 0 0 0;
+}
+.containerCopyright p {
+  font-size: 20px;
+  font-weight: 500;
+  color:#c1da99;
+  color:rgb(193, 218, 153)
+}
+.containerCopyright a {
+  color: #fff;
+  text-decoration: none;
+}
+.containerCopyright a:hover {
+  color: #000;
+  font-weight: 700;
 }
 
 /* MODAL */
