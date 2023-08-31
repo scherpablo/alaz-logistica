@@ -17,21 +17,41 @@ body {
 /* HEADER */
 .hero {
   background-color: rgb(15, 84, 123, 0.5);
-  height: 500px;
+  height: 470px;
   position: relative;
   overflow: hidden;
   text-align: center;
+  margin-top: -30px;
 }
 @media (max-width: 768px) {
   .hero {
     width: auto;
-    height: auto;
+    height: 400px;
+  }
+}
+@media (max-width: 480px) {
+  .hero {
+    width: auto;
+    height: 350px;
   }
 }
 .logo {
   border-radius: 50%;
   border: 5px solid #000;
   width: 300px;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .logo {
+    transform: scale(.8);
+    margin-bottom: 0px;
+  }  
+}
+@media (max-width: 480px) {
+  .logo {
+    transform: scale(.7);
+    margin-bottom: -30px;
+  }  
 }
 .textsHero {
   display: flex;
@@ -40,18 +60,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 25px
 }
-.svgHero {
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 100%;
+@media (max-width: 768px) {
+  .textsHero {
+    height: auto;
+  }  
 }
 /* NAV BAR */
 .navContainer {
   background-color: #0f547b;
-  padding: 20px 0 30px 0;
+  padding: 10px 0 20px 0;
 }
 .navLinks {
   display: flex;
@@ -89,29 +107,39 @@ body {
   }
 }
 
+/* CONTAINERS SECTIONS */
+.section {
+  padding: 30px 0;
+}
+.containerInfo,
+.containerForm {
+  background-color: #c1da99;
+}
+
 /* ESTILOS GENERALES */
 .waveSite {
   width: 90%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0;
   box-sizing: border-box;
 }
 .waveSite h1 {
   padding-top: 50px;
-  font-size: 55px;
-  max-width: 800px;
+  font-size: 50px;
+  max-width: 1200px;
   text-align: center;
   margin: 0 auto;
   color: #fff;
 }
 @media (max-width: 768px) {
   .waveSite h1 {
-    font-size: 45px;
+    font-size: 35px;
+    padding-top: 20px;
   }
 }
 @media (max-width: 480px) {
   .waveSite h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 .waveSite img {
@@ -137,6 +165,7 @@ body {
 }
 .ctaWhats {
   z-index: 1;
+  margin: 0 auto;
 }
 .ctaWhats:hover {
   cursor: pointer;
@@ -209,14 +238,7 @@ body {
   color: #fff;
 }
 
-/* CONTAINERS SECTIONS */
-.section {
-  padding: 30px 0;
-}
-.containerInfo,
-.containerForm {
-  background-color: #c1da99;
-}
+
 
 /* SECTION INFO */
 .containerInfo {
