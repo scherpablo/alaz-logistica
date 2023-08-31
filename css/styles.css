@@ -32,7 +32,7 @@ body {
 @media (max-width: 480px) {
   .hero {
     width: auto;
-    height: 350px;
+    height: 360px;
   }
 }
 .logo {
@@ -45,15 +45,17 @@ body {
   .logo {
     transform: scale(.8);
     margin-bottom: 0px;
+    margin: 20px 0 -10px 0;
   }  
 }
 @media (max-width: 480px) {
   .logo {
     transform: scale(.7);
-    margin-bottom: -30px;
+    margin-bottom: -25px;
+    margin-top: 0px;
   }  
 }
-.textsHero {
+.containerHero {
   display: flex;
   color: #000;
   height: 500px;
@@ -62,7 +64,7 @@ body {
   align-items: center;
 }
 @media (max-width: 768px) {
-  .textsHero {
+  .containerHero {
     height: auto;
   }  
 }
