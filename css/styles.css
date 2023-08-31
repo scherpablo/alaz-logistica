@@ -17,7 +17,6 @@ body {
 /* HEADER */
 .hero {
   background-color: rgb(15, 84, 123, 0.5);
-  /* background-color: rgb(15, 84, 123); */
   height: 500px;
   position: relative;
   overflow: hidden;
@@ -400,7 +399,6 @@ body {
 
 /* FORM */
 .containerForm {
-  /* background-color: #C1DA99; */
   padding: 50px 0;
 }
 .containerForm h2 {
@@ -483,7 +481,6 @@ footer {
 }
 
 /* MODAL */
-/* Estilos para la ventana modal */
 .modal {
   display: none;
   position: fixed;
